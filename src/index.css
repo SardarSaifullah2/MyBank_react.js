@@ -1,0 +1,256 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #1A1A1A;
+  overflow-x: hidden;
+}
+*{
+  box-sizing: border-box;
+font-family: 'Lexend', sans-serif;
+}
+
+*::selection{
+  color:rgb(0, 0, 0);
+  background:#caff33;
+}
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.tranform {
+  transform: translateX(100%)!important;
+}
+.row {
+  flex-direction: row-reverse;
+}
+
+.form_radio{
+  display: flex;
+  flex-direction: row!important;
+  gap: 20px !important;;
+  grid-column: 1 / span 2;
+}
+.position_change{
+  position: relative;
+    top: -100px;
+}
+@media(max-width:786px){
+  .position_change{
+    position: relative;
+      top: 0px;
+  }
+}
+
+svg.address_icon {
+  font-size: 20px;
+  padding:20px;
+  background-color: #caff33;
+  color:#1A1A1A;
+}
+svg.email_icon {
+  font-size: 20px;
+  padding:20px;
+  background-color: #caff33;
+}
+svg.phone_icon {
+  font-size: 20px;
+  padding:20px;
+  background-color: #caff33;
+}
+@media(max-width:586px){
+  .form_radio{
+    display:flex;
+    flex-direction:column!important;
+    align-items: flex-start;
+  }
+} */
+
+/* P.small{
+  font-size:16px;
+  color:#b3b3b3;
+  line-height: 170%;
+}
+p.large{
+  font-size:18px;
+  color:#b3b3b3;
+  line-height:170%;
+}
+
+
+.flex_2{
+  flex:2;
+}
+
+.slick-slide > div {
+  margin: 0 10px;
+}
+
+.slick-prev::before{
+  display:none;
+}
+.slick-next::before{
+  display:none;
+}
+.slick-dots li.slick-active button:before {
+  opacity: .75;
+  color: #caff33!important;
+}
+.slick-dots li button:before {
+  font-size: 9px!important;
+  color:#c9ff3342!important;
+  padding-top:20px;
+}
+
+
+.color_caff33{
+  color: #caff33!important;
+}
+
+.account_making_account_containerInfo{
+  width: 80%!important;
+}
+@media(max-width:980px){
+  .account_making_account_containerInfo{
+    width: 70%!important;
+  }
+  
+}
+@media(max-width:786px){
+  .account_making_account_containerInfo{
+    width: 95%!important;
+  }
+  
+} */
+h1{
+  font-size:48px;
+  @media (max-width:768px) {
+     font-size:30px;
+  }
+}
+h2{
+  font-size:38px;
+  line-height: 150%;
+  color:white;
+  @media(max-width:768px){
+    font-size: 28px;
+  }
+}
+h3{
+  font-size:28px;
+  line-height: 150%;
+}
+h4{
+  font-size:24px;
+  line-height: 150%;
+}
+h5{
+  font-size:22px;
+  line-height: 150%;
+}
+h6{
+  font-size:20px;
+  line-height: 150%;
+}
+P.small{
+  font-size:16px;
+  color:#b3b3b3;
+  line-height: 170%;
+}
+p.large{
+  font-size:18px;
+  color:#b3b3b3;
+  line-height:170%;
+}
+
+/* gradient color  */
+.bg-gradient{
+  background: radial-gradient(103.26% 114.79% at 103.26% 0%, #1c1c1c 20.29%, rgba(202, 255, 51, 0.3) 34.91%, #1c1c1c 60.69%);
+
+}
+/* Scrollbar hide  */
+.scrollbar-hide{
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar{
+  display: none;
+}
+/* testominol setting  */
+.slick-slide > div {
+  margin: 0 10px;
+}
+
+.slick-prev::before{
+  display:none;
+}
+.slick-next::before{
+  display:none;
+}
+.slick-dots li.slick-active button:before {
+  opacity: .75;
+  color: #caff33!important;
+}
+.slick-dots li button:before {
+  font-size: 9px!important;
+  color:#c9ff3342!important;
+  padding-top:20px;
+}
+
+
+.color_caff33{
+  color: #caff33!important;
+}
+
+/* Header csss  */
+.navlink.active{
+  background:#262626;
+  color:#caff33;
+
+}
+
+/* Contact Page Information  */
+.afterContactInformationImg::after{
+  background:url('./Images/Dot_design.png');
+ content:'';
+ position:absolute;
+ content:'';
+ width:200px;
+ height:200px;
+ top:-50px;
+ left:-50px;
+}
+
+
+
+/* signup page class  */
+.GridClass{
+  display:grid;
+  grid-template-columns:300px 300px;
+  gap:30px;
+  margin-top:40px;
+}
+@media(max-width:768px){
+  .GridClass{
+    grid-template-columns:1fr;
+    width: 90%;
+    margin:0 auto;
+  }
+}
+
+
+
+/* contact page  */
+.GridClassContact{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap:10px;
+}
